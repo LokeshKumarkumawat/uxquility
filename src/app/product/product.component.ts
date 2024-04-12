@@ -40,6 +40,8 @@ export class ProductComponent implements OnInit {
       this.fetchProducts();
     });
 
+
+
   }
 
   fetchProducts(): void {

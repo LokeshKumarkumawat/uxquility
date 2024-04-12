@@ -34,7 +34,7 @@ export class ProductDetailComponent implements OnInit {
     this.productService.getProduct(productSlug).subscribe(
       (product: any) => {
         if (product) {
-          console.log("Product:", product);
+   
           this.product = product;
         } else {
           console.error("Product not found:", productSlug);
