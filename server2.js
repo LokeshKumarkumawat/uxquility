@@ -8,9 +8,7 @@ const data = require('./db.json');
 // app.use(cors('https://uxquility.vercel.app'));
 
 // Allow requests only from specific origin
-app.use(cors({
-  origin: 'https://uxquility-fkxohyhdv-lokeshkumawat1225s-projects.vercel.app'
-}));
+app.use(cors());
 
 // Endpoint for pagination
 app.get('/products', (req, res) => {

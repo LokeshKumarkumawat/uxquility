@@ -62,9 +62,9 @@ export class ProductComponent implements OnInit {
   }
 
   navigateToProductDetail(productSlug: string): void {
-    // this.router.navigate(['/products', productSlug]);
+    this.router.navigate(['/products', productSlug]);
 
-    window.location.href = `/products/${productSlug}`;
+    // window.location.href = `/products/${productSlug}`;
   }
 
 }
