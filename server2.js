@@ -5,7 +5,12 @@ const cors = require('cors');
 // Sample JSON data (your db.json content)
 const data = require('./db.json');
 
-// app.use(cors());
+// app.use(cors('https://uxquility.vercel.app'));
+
+// Allow requests only from specific origin
+app.use(cors({
+  origin: 'https://uxquility-fkxohyhdv-lokeshkumawat1225s-projects.vercel.app'
+}));
 
 // Endpoint for pagination
 app.get('/products', (req, res) => {
@@ -44,9 +49,6 @@ app.get('/products/:slug', (req, res) => {
 });
 
 // Allow requests only from specific origin
-// app.use(cors({
-// //   origin: 'http://localhost:4200'
-// }));
 
 // Start the server
 const PORT = process.env.PORT || 3000;
