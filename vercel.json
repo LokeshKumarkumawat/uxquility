@@ -2,7 +2,6 @@
   "version": 2,
   "public": true,
   "name": "enveto2",
-  "devCommand":"node dist/enveto2/server/server.mjs",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -11,7 +10,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/enveto2/browser/**"
+      "includeFiles": "dist/enveto2/**"
     }
   }
 }
