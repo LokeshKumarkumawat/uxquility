@@ -1,0 +1,128 @@
+{
+
+  "products": [
+    {
+      "id": 1,
+      "title": "Travel",
+      "author": "IsLein",
+      "category": "Web Templates",
+      "description": "Travel Html5 Animate Banner Ads Template is a clean and unique design so far using creative companies and events such as, cities, travel bueros, bookings, booking, hotel travel",
+      "tags": ["web", "html", "design"],
+      "uuid": "12345",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Responsive Web Design Templates Pack",
+      "author": "CreativeDesigns",
+      "category": "Web Templates",
+      "description": "A pack of responsive web design templates suitable for various industries and purposes.",
+      "tags": ["web", "responsive", "design"],
+      "uuid": "54321",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "E-commerce HTML5 Website Template",
+      "author": "ShopMaster",
+      "category": "Web Templates",
+      "description": "A modern e-commerce HTML5 website template with advanced features for online shopping.",
+      "tags": ["web", "ecommerce", "html5"],
+      "uuid": "67890",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Corporate Business Website Template",
+      "author": "BizTech",
+      "category": "Web Templates",
+      "description": "A professional corporate business website template suitable for various business niches.",
+      "tags": ["web", "business", "template"],
+      "uuid": "13579",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Creative Portfolio HTML5 Template",
+      "author": "PixelArt",
+      "category": "Web Templates",
+      "description": "An innovative portfolio HTML5 template designed to showcase creative works and projects.",
+      "tags": ["web", "portfolio", "html5"],
+      "uuid": "24680",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Mobile App Landing Page Template",
+      "author": "AppLaunch",
+      "category": "Web Templates",
+      "description": "A sleek and modern landing page template for promoting mobile applications.",
+      "tags": ["web", "mobile", "landing page"],
+      "uuid": "98765",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Restaurant Website Template",
+      "author": "FoodieDesigns",
+      "category": "Web Templates",
+      "description": "A sophisticated website template for restaurants and cafes, showcasing menus, reservations, and more.",
+      "tags": ["web", "restaurant", "template"],
+      "uuid": "75319",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Fashion Blog HTML Template",
+      "author": "StyleTrend",
+      "category": "Web Templates",
+      "description": "A trendy and stylish HTML template for fashion blogs, featuring clean design and customizable elements.",
+      "tags": ["web", "fashion", "blog", "html"],
+      "uuid": "95173",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Startup Landing Page Template",
+      "author": "StartupHub",
+      "category": "Web Templates",
+      "description": "A dynamic landing page template for startup companies, designed to capture leads and promote products or services.",
+      "tags": ["web", "startup", "landing page"],
+      "uuid": "36982",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Real",
+      "author": "RealEstatePro",
+      "category": "Web Templates",
+      "description": "A comprehensive website template tailored for real estate agencies and property listings, featuring intuitive search and filtering functionalities.",
+      "tags": ["web", "real estate", "template"],
+      "uuid": "15937",
+      "images": [
+        "https://elements-cover-images-0.imgix.net/2ad6c022-8a90-4858-9b41-2fc25e1670a1?auto=compress%2Cformat&fit=max&w=866&s=44acd4ede0b7c7ac516832c7086f015b"
+      ]
+    }
+
+  ]
+
+
+}

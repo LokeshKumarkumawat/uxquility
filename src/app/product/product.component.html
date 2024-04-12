@@ -1,0 +1,97 @@
+
+
+<div class="wrapper">
+  <app-header></app-header>
+
+  <section id="page-content" class="page-wrapper section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tab-section section-bg-tb pt-80 pb-55">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-title text-start mb-40">
+          <h2 class="uppercase">Website Templates</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <!-- popular-product start -->
+          <div id="popular-product" class="tab-pane active show" >
+            <div class="row" >
+
+
+
+              <!-- product-item start -->
+              <div class="col-lg-3 col-md-4" *ngFor="let product of products " >
+              <!-- <div class="col-lg-3 col-md-4" *ngFor="let product of products$ | async" > -->
+                <div class="product-item">
+                  <div class="product-img">
+                    <a
+                    (click)="navigateToProductDetail(product.slug)"
+
+                    >
+                      <img [src]="product.images" alt=""  />
+                    </a>
+                  </div>
+                  <div class="product-info">
+                    <div class="cat-auth">
+                      <h6 class="p-cat">
+                        <a href="single-product.html"> {{product.category}}</a>
+                      </h6>
+                      <h6 class="p-cat">
+                        <a href="single-product.html">{{product.author}}</a>
+                      </h6>
+                    </div>
+                    <h6 class="product-title">
+
+                      <a         (click)="navigateToProductDetail(product.slug)"
+                        >{{product.title}}</a
+                      >
+                    </h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pagination">
+                <button [disabled]="currentPage === 1" (click)="onPageChange(currentPage - 1)">Previous</button>
+                <span>Page {{ currentPage }} of {{ totalPages }}</span>
+                <button [disabled]="currentPage === totalPages" (click)="onPageChange(currentPage + 1)">Next</button>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+
+
+
+</div>

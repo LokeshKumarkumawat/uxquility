@@ -1,0 +1,163 @@
+<app-header></app-header>
+
+
+
+
+     <!-- SHOP SECTION START -->
+            <div class="shop-section mt-110">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <!-- single-product-area start -->
+                          <div class="single-product-area mb-80">
+                              <div class="row" *ngIf="product">
+                                  <!-- imgs-zoom-area start -->
+                                  <div class="col-lg-8">
+                                      <div class="imgs-zoom-area">
+                                          <img class="banner-img" src={{product.images}}
+                                              alt="">
+                                      </div>
+                                  </div>
+                                  <!-- imgs-zoom-area end -->
+                                  <!-- single-product-info start -->
+                                  <div class="col-lg-4">
+                                      <div class="single-product-info">
+                                          <h2 class="text-black-1" style="font-weight: 600;">{{product.title}}</h2>
+
+                                          <hr>
+                                          <!-- single-product-price -->
+
+<div class="auths-outer">
+
+
+
+  <!-- <table class="auths" >
+
+      <tr>
+          <td class="auths-b" >Author</td>
+          <td>Creavora</td>
+      </tr>
+      <tr>
+          <td class="auths-b" >Category</td>
+          <td>Presentation Templates</td>
+      </tr>
+      <tr>
+          <td class="auths-b" >Published At</td>
+          <td>February 1, 2023</td>
+
+      </tr>
+  </table> -->
+
+
+
+  <table class="table">
+    <thead>
+      <!-- <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+
+      </tr> -->
+    </thead>
+    <tbody class="auths" >
+
+      <tr>
+        <td class="auths-b" >Author</td>
+        <td>Creavora</td>
+    </tr>
+    <tr>
+        <td class="auths-b" >Category</td>
+        <td>Presentation Templates</td>
+    </tr>
+    <tr>
+        <td class="auths-b" >Published At</td>
+        <td>February 1, 2023</td>
+
+    </tr>
+
+    </tbody>
+  </table>
+</div>
+
+
+
+
+                                          <hr>
+                                          <div class="get-code">
+                                              <a href="#" data-bs-toggle="modal" data-bs-target="#productModal" class="button extra-small button-black" tabindex="-1">
+                                                  <span class="text-uppercase" style="font-weight: 600;">Get Code</span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- single-product-info end -->
+                              </div>
+                              <!-- single-product-tab -->
+                              <div class="row" *ngIf="product">
+                                  <div class="col-lg-12 desc-p">
+                                      <!-- hr -->
+                                      <hr>
+                                      <div class="single-product-tab reviews-tab">
+                                          <ul class="nav mb-20">
+                                              <li><a class="active" href="#description" data-bs-toggle="tab" style="font-weight: 600 !important;">description</a></li>
+
+
+                                          </ul>
+                                          <div class="tab-content">
+                                              <div role="tabpanel" class="tab-pane active show" id="description">
+                                                  <p>There are many variations of passages of Lorem Ipsum available, but the
+                                                      majo Rity have be suffered alteration in some form, by injected humou or
+                                                      randomis Rity have be suffered alteration in some form, by injected
+                                                      humou or randomis words which donot look even slightly believable. If
+                                                      you are going to use a passage Lorem Ipsum.</p>
+                                                  <p>rerum blanditiis dolore dignissimos expedita consequatur deleniti
+                                                      consectetur non exercitationem. rerum blanditiis dolore dignissimos
+                                                      expedita consequatur deleniti consectetur non exercitationem.</p>
+
+
+                                                      <div class="tab-pane tags-box" >
+                                                        <p *ngFor="let tag of product.tags" class="tags">{{tag}}</p>
+                                                        </div>
+                                              </div>
+
+                                          </div>
+                                      </div>
+                                      <!--  hr -->
+                                      <!-- <hr> -->
+                                  </div>
+                              </div>
+                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- SHOP SECTION END -->
