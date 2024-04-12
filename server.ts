@@ -21,7 +21,7 @@ export function app(): express.Express {
 
 
 
-  
+
 
 
 
@@ -69,4 +69,4 @@ function run(): void {
   });
 }
 
-run();
+// run();
